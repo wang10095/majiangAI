@@ -1,0 +1,71 @@
+{
+  "name": "扣扣表情包",
+  "server": "https://kkbqb-cdn.galsanggame.com/qqemoji/wxtest",
+  "platform": "wechatgame",
+  "buildPath": "project://build",
+  "debug": false,
+  "md5Cache": true,
+  "skipCompressTexture": false,
+  "sourceMaps": true,
+  "polyfills": {
+    "asyncFunctions": false
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": true,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "1e51793d-4a76-492f-85e8-a371bbe76a14",
+  "outputName": "wechatgame",
+  "taskName": "wechatgame",
+  "scenes": [
+    {
+      "url": "db://assets/battle/battle.scene",
+      "uuid": "4b8472dd-9cc6-4ba3-ae65-ffcd38d54e4e",
+      "bundle": "db://assets/battle"
+    },
+    {
+      "url": "db://assets/home/home/home.scene",
+      "uuid": "8536e0c2-92d2-444f-a5a9-d9606d93d24d",
+      "bundle": "db://assets/home/home"
+    },
+    {
+      "url": "db://assets/loading/loading.scene",
+      "uuid": "1e51793d-4a76-492f-85e8-a371bbe76a14"
+    }
+  ],
+  "packages": {
+    "engine": {
+      "cleanupImageCache": "on",
+      "__version__": "1.0.8"
+    },
+    "wechatgame": {
+      "orientation": "portrait",
+      "appid": "wxc8277f5bacf16faf",
+      "buildOpenDataContextTemplate": true,
+      "separateEngine": false,
+      "highPerformanceMode": true,
+      "enabelWebGL2": "off",
+      "wasm": "wasm",
+      "__version__": "1.0.4",
+      "wasmSubpackage": true
+    },
+    "cocos-service": {
+      "configID": "4f9955",
+      "services": [],
+      "__version__": "3.0.7"
+    }
+  },
+  "__version__": "1.3.7",
+  "buildMode": "normal",
+  "logDest": "project://temp/builder/log/wechatgame2024-11-28 12-14.log",
+  "buildStageGroup": {
+    "build": [
+      "run"
+    ]
+  }
+}

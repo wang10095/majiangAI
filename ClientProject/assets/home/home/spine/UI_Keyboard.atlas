@@ -1,0 +1,209 @@
+
+UI_Keyboard.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11
+  rotate: false
+  xy: 2, 197
+  size: 91, 97
+  orig: 93, 99
+  offset: 1, 1
+  index: -1
+12
+  rotate: false
+  xy: 293, 288
+  size: 91, 100
+  orig: 93, 102
+  offset: 1, 1
+  index: -1
+14
+  rotate: true
+  xy: 2, 296
+  size: 92, 99
+  orig: 94, 101
+  offset: 1, 1
+  index: -1
+15
+  rotate: false
+  xy: 726, 655
+  size: 93, 98
+  orig: 95, 100
+  offset: 1, 1
+  index: -1
+16
+  rotate: false
+  xy: 95, 194
+  size: 90, 100
+  orig: 92, 102
+  offset: 1, 1
+  index: -1
+17
+  rotate: false
+  xy: 2, 96
+  size: 90, 99
+  orig: 92, 101
+  offset: 1, 1
+  index: -1
+21
+  rotate: false
+  xy: 91, 7
+  size: 87, 87
+  orig: 89, 89
+  offset: 1, 1
+  index: -1
+22
+  rotate: false
+  xy: 187, 203
+  size: 90, 91
+  orig: 92, 93
+  offset: 1, 1
+  index: -1
+23
+  rotate: false
+  xy: 199, 296
+  size: 92, 92
+  orig: 94, 94
+  offset: 1, 1
+  index: -1
+24
+  rotate: false
+  xy: 183, 15
+  size: 87, 92
+  orig: 89, 94
+  offset: 1, 1
+  index: -1
+25
+  rotate: false
+  xy: 726, 755
+  size: 98, 100
+  orig: 100, 102
+  offset: 1, 1
+  index: -1
+26
+  rotate: true
+  xy: 279, 195
+  size: 91, 90
+  orig: 93, 92
+  offset: 1, 1
+  index: -1
+27
+  rotate: false
+  xy: 2, 2
+  size: 87, 92
+  orig: 89, 94
+  offset: 1, 1
+  index: -1
+31
+  rotate: false
+  xy: 94, 98
+  size: 87, 94
+  orig: 89, 96
+  offset: 1, 1
+  index: -1
+32
+  rotate: true
+  xy: 386, 302
+  size: 86, 92
+  orig: 88, 94
+  offset: 1, 1
+  index: -1
+33
+  rotate: false
+  xy: 372, 106
+  size: 86, 92
+  orig: 88, 94
+  offset: 1, 1
+  index: -1
+34
+  rotate: true
+  xy: 277, 106
+  size: 87, 93
+  orig: 89, 95
+  offset: 1, 1
+  index: -1
+35
+  rotate: false
+  xy: 187, 109
+  size: 88, 92
+  orig: 90, 94
+  offset: 1, 1
+  index: -1
+36
+  rotate: true
+  xy: 371, 200
+  size: 86, 95
+  orig: 88, 97
+  offset: 1, 1
+  index: -1
+37
+  rotate: true
+  xy: 480, 303
+  size: 85, 93
+  orig: 87, 95
+  offset: 1, 1
+  index: -1
+41
+  rotate: false
+  xy: 357, 22
+  size: 82, 82
+  orig: 84, 84
+  offset: 1, 1
+  index: -1
+42
+  rotate: false
+  xy: 460, 24
+  size: 84, 86
+  orig: 86, 88
+  offset: 1, 1
+  index: -1
+43
+  rotate: false
+  xy: 460, 112
+  size: 86, 86
+  orig: 88, 88
+  offset: 1, 1
+  index: -1
+44
+  rotate: false
+  xy: 272, 17
+  size: 83, 87
+  orig: 85, 89
+  offset: 1, 1
+  index: -1
+45
+  rotate: true
+  xy: 103, 296
+  size: 92, 94
+  orig: 94, 96
+  offset: 1, 1
+  index: -1
+46
+  rotate: false
+  xy: 480, 216
+  size: 86, 85
+  orig: 88, 87
+  offset: 1, 1
+  index: -1
+47
+  rotate: false
+  xy: 546, 23
+  size: 81, 87
+  orig: 83, 89
+  offset: 1, 1
+  index: -1
+aj
+  rotate: true
+  xy: 726, 28
+  size: 625, 75
+  orig: 627, 77
+  offset: 1, 1
+  index: -1
+ddd
+  rotate: false
+  xy: 2, 390
+  size: 722, 465
+  orig: 724, 467
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,40 @@
+{
+    "wechatgame": {
+        "appId": "wxc8277f5bacf16faf",
+        "version": "1.0.0",
+        "debug": false,
+        "md5Cache": true,
+        "skipCompressTexture": false,
+        "sourceMaps": true,
+        "name": "扣扣表情包",
+        "server": "https://kkbqb-cdn.galsanggame.com/qqemoji/wechatgame",
+        "winBuildPath": "D:\\Cocos\\QQemoji\\Src\\QQEmoji\\ClientProject\\build"
+    },
+    "wechatgame_debug": {
+        "appId": "wxc8277f5bacf16faf",
+        "version": "1.0.0",
+        "debug": false,
+        "md5Cache": true,
+        "skipCompressTexture": false,
+        "sourceMaps": true,
+        "name": "扣扣表情包",
+        "server": "https://kkbqb-cdn.galsanggame.com/qqemoji/wechatgame/1.0.3",
+        "winBuildPath": "D:\\Cocos\\QQemoji\\Src\\QQEmoji\\ClientProject\\build"
+    },
+    "ttgame": {
+        "version": "1.0.0",
+        "debug": false,
+        "md5Cache": true,
+        "skipCompressTexture": false,
+        "sourceMaps": false,
+        "server": ""
+    },
+    "web-desktop": {
+        "version": "1.0.0",
+        "debug": true,
+        "md5Cache": true,
+        "skipCompressTexture": false,
+        "sourceMaps": true,
+        "server": ""
+    }
+}

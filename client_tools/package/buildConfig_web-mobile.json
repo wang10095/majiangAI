@@ -1,0 +1,75 @@
+{
+  "name": "HelloWeChat",
+  "server": "",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "debug": true,
+  "md5Cache": true,
+  "skipCompressTexture": false,
+  "sourceMaps": true,
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": true,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "4d717cdd-a950-411f-a186-22b436faeb8b",
+  "outputName": "web-mobile",
+  "taskName": "web-mobile",
+  "scenes": [
+    {
+      "url": "db://assets/battle/battle.scene",
+      "uuid": "6bdecffd-9e0a-41b2-9808-a7b5edd535f3",
+      "bundle": "db://assets/battle"
+    },
+    {
+      "url": "db://assets/home/home.scene",
+      "uuid": "a830ccf3-5a62-468d-9bc0-f22096239446",
+      "bundle": "db://assets/home"
+    },
+    {
+      "url": "db://assets/home/test-skin.scene",
+      "uuid": "0382ccbc-2621-4c44-97bd-fca83210159d",
+      "bundle": "db://assets/home"
+    },
+    {
+      "url": "db://assets/loading/loading.scene",
+      "uuid": "4d717cdd-a950-411f-a186-22b436faeb8b"
+    },
+    {
+      "url": "db://assets/pet/pet.scene",
+      "uuid": "6a4c7cc3-d32e-458f-94b4-f84a94592e3e",
+      "bundle": "db://assets/pet"
+    },
+    {
+      "url": "db://assets/login/login.scene",
+      "uuid": "b0f2cf1d-bc5a-49e9-b06e-8a19e6190586",
+      "bundle": "db://assets/login"
+    }
+  ],
+  "packages": {
+    "engine": {
+      "cleanupImageCache": "inheritProjectSetting",
+      "__version__": "1.0.7"
+    },
+    "web-mobile": {
+      "orientation": "portrait",
+      "embedWebDebugger": false,
+      "cullEngineAsmJsModule": false,
+      "__version__": "1.0.1"
+    },
+    "cocos-service": {
+      "configID": "0dce68",
+      "services": []
+    }
+  },
+  "__version__": "1.3.6",
+  "buildMode": "normal",
+  "logDest": "project://temp/builder/log/web-mobile9-12-2023 14-10.log"
+}

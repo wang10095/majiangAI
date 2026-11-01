@@ -1,0 +1,145 @@
+syntax = "proto3";
+package msg;
+
+enum StateCode {
+    SUCCESS = 0;
+    FILD = 1;
+    WARN = 2;
+    ERROR = 3;
+}
+
+message BaseRequest {
+    int32 cmd = 1;
+    string identity = 2;
+    bytes pack = 3;
+}
+
+message BaseResponseGroup {
+    int32 cmd = 1;
+    StateCode state_code = 2;
+    repeated BaseResponse packs = 3;
+}
+
+message BaseResponse {
+    int32 cmd = 1;
+    StateCode state_code = 2;
+    bytes pack = 3;
+    string info = 4;
+    repeated Item item_receive = 5;
+}
+
+
+
+//装扮的部位
+enum Part {
+    UNKNOW = 0;
+    HAIR = 1; // 头发
+    BODY_TOP = 2; // 上身
+    BODY_BOTTOM = 3; // 下身
+    LEFT_HAND = 4; // 左手
+    RIGHT_HAND = 5; // 右手
+    FEET = 6; // 脚
+    HEAD = 7; // 头饰
+    EYE = 8; // 眼睛
+    MOUTH = 9; // 口鼻
+    MAKEUP = 10; // 妆容
+    FACE = 11; // 脸饰
+    ORNAMENT = 12; // 饰品
+    PET = 13; // 宠物
+    JEWEL = 14; // 宝石
+    WING = 15; // 翅膀
+}
+
+//属性的类型
+enum AttributeType {
+    NULL = 0;
+    ATTACK = 1; // 攻击
+    DEFENSE = 2; // 防御
+    CRIT = 3; // 暴击
+}
+
+message Attribute {
+    AttributeType type = 1;
+    int32 value = 2;
+    int32 value2 = 3;
+}
+
+//装扮的部位（装备）
+message Equip {
+    Part part = 1;//部位
+    string name = 2;
+    int32 icon = 3;
+    int32 quality = 4;//品质
+    int32 level = 5;
+    repeated Attribute attributes = 6;//属性
+    int32 transformation = 7;//幻化
+}
+
+message Item {
+    int32 id = 1;
+    int32 count = 2;
+}
+
+////常用物品id
+//enum ItemId {
+//    UNKNOW = 0;
+//    COIN = 1; // 金币
+//    GEM = 2; // 钻石
+//    CHEST = 3; // 箱子
+//}
+message LoginRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message LoginResponse {
+    string identity = 1;
+}
+
+message GetDressingResponse {
+    repeated Equip parts = 1;
+}
+
+//cmd 11102 幻化
+message TransformationRequest {
+    Part part = 1;
+    int32 target = 2;
+}
+
+////////////////////////////////////////////////////
+
+//cmd 11201 获得玩家的道具信息
+message GetItemsRequest {
+    repeated int32 item_ids = 1;// 查询指定道具传道具id；缺省即查询所有
+}
+
+message GetItemsResponse {
+    repeated Item items = 1;
+}
+message GashaponRequest {
+    AutoDispose dispose = 1;
+}
+
+//自动处理
+message AutoDispose {
+    AutoType type = 1;
+    int32 count = 2; //一次开几个
+    int32 quality = 3; //自动处理的品质线
+
+    enum AutoType {
+        DEF = 0; //不开启自动处理
+        SELL = 1;//自动出售
+        RESOLVE = 2;//自动分解
+    }
+}
+
+message GashaponResponse {
+    Equip part = 1;//开出的装备
+    repeated Item items = 2;//额外获得、出售、分解的道具(可以在这里返回，也可以在BaseResponse.item_receive里返回)
+}
+
+/////////////////////////////////////////
+
+//cmd 12002 扭蛋升级
+message LevelUpRequest {
+}

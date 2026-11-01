@@ -1,0 +1,94 @@
+{
+  "__version__": "1.3.7",
+  "textureCompressConfig": {
+    "userPreset": {
+      "dbfYPPAKJMrLF8edXRNewJ": {
+        "name": "mini_png_compress",
+        "options": {
+          "miniGame": {
+            "astc_6x6": {
+              "quality": "exhaustive"
+            },
+            "png": {
+              "quality": 90
+            }
+          }
+        }
+      }
+    }
+  },
+  "bundleConfig": {
+    "custom": {
+      "d2NvZjLJtOuI3WOnr86EGH": {
+        "displayName": "mini package",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "fallbackOptions": {
+              "compressionType": "merge_dep"
+            }
+          },
+          "miniGame": {
+            "fallbackOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "configMode": "overwrite",
+            "overwriteSettings": {
+              "bytedance-mini-game": {
+                "compressionType": "subpackage"
+              },
+              "wechatgame": {
+                "compressionType": "subpackage"
+              }
+            }
+          }
+        }
+      },
+      "a111/d7sFO5K9OGiJrpP+f": {
+        "displayName": "remote config",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "fallbackOptions": {
+              "compressionType": "merge_dep"
+            }
+          },
+          "miniGame": {
+            "fallbackOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "configMode": "overwrite",
+            "overwriteSettings": {
+              "bytedance-mini-game": {
+                "compressionType": "zip"
+              },
+              "wechatgame": {
+                "compressionType": "zip"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

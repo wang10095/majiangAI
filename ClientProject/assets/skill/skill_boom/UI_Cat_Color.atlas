@@ -1,0 +1,146 @@
+
+UI_Cat_Color.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cat
+  rotate: true
+  xy: 739, 413
+  size: 157, 189
+  orig: 157, 189
+  offset: 0, 0
+  index: -1
+lig_0001
+  rotate: true
+  xy: 441, 575
+  size: 142, 200
+  orig: 164, 200
+  offset: 9, 0
+  index: -1
+lig_0002
+  rotate: true
+  xy: 198, 445
+  size: 150, 192
+  orig: 164, 200
+  offset: 4, 4
+  index: -1
+lig_0003
+  rotate: true
+  xy: 559, 420
+  size: 152, 178
+  orig: 164, 200
+  offset: 4, 12
+  index: -1
+lig_0004
+  rotate: true
+  xy: 392, 422
+  size: 151, 165
+  orig: 164, 200
+  offset: 5, 18
+  index: -1
+lig_0005
+  rotate: true
+  xy: 643, 574
+  size: 143, 150
+  orig: 164, 200
+  offset: 8, 26
+  index: -1
+lig_0006
+  rotate: true
+  xy: 795, 572
+  size: 145, 173
+  orig: 164, 200
+  offset: 7, 15
+  index: -1
+lig_0007
+  rotate: true
+  xy: 287, 597
+  size: 120, 152
+  orig: 164, 200
+  offset: 19, 28
+  index: -1
+lig_0008
+  rotate: true
+  xy: 2, 620
+  size: 97, 171
+  orig: 164, 200
+  offset: 13, 19
+  index: -1
+lig_0009
+  rotate: true
+  xy: 2, 472
+  size: 145, 194
+  orig: 164, 200
+  offset: 8, 4
+  index: -1
+zaza0001
+  rotate: false
+  xy: 175, 619
+  size: 110, 98
+  orig: 251, 223
+  offset: 74, 45
+  index: -1
+zaza0003
+  rotate: false
+  xy: 433, 21
+  size: 218, 201
+  orig: 251, 223
+  offset: 28, 0
+  index: -1
+zaza0004
+  rotate: false
+  xy: 653, 2
+  size: 236, 218
+  orig: 251, 223
+  offset: 15, 0
+  index: -1
+zaza0008
+  rotate: false
+  xy: 2, 52
+  size: 212, 195
+  orig: 251, 223
+  offset: 27, 6
+  index: -1
+zaza0012
+  rotate: false
+  xy: 216, 44
+  size: 215, 198
+  orig: 251, 223
+  offset: 24, 6
+  index: -1
+zaza0016
+  rotate: true
+  xy: 777, 222
+  size: 189, 200
+  orig: 251, 223
+  offset: 28, 4
+  index: -1
+zaza0020
+  rotate: true
+  xy: 570, 224
+  size: 187, 205
+  orig: 251, 223
+  offset: 24, 2
+  index: -1
+zaza0024
+  rotate: false
+  xy: 198, 249
+  size: 174, 194
+  orig: 251, 223
+  offset: 30, 6
+  index: -1
+zaza0028
+  rotate: true
+  xy: 374, 244
+  size: 174, 194
+  orig: 251, 223
+  offset: 30, 6
+  index: -1
+zaza0032
+  rotate: true
+  xy: 2, 299
+  size: 171, 194
+  orig: 251, 223
+  offset: 30, 6
+  index: -1

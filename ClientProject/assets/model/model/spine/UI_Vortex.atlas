@@ -1,0 +1,111 @@
+
+UI_Vortex.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill_levelup_pop_y_00000
+  rotate: false
+  xy: 674, 10
+  size: 111, 112
+  orig: 350, 300
+  offset: 121, 95
+  index: -1
+skill_levelup_pop_y_00001
+  rotate: true
+  xy: 786, 561
+  size: 225, 226
+  orig: 350, 300
+  offset: 64, 39
+  index: -1
+skill_levelup_pop_y_00002
+  rotate: true
+  xy: 2, 357
+  size: 313, 300
+  orig: 350, 300
+  offset: 20, 0
+  index: -1
+skill_levelup_pop_y_00003
+  rotate: true
+  xy: 218, 681
+  size: 308, 300
+  orig: 350, 300
+  offset: 23, 0
+  index: -1
+skill_levelup_pop_y_00004
+  rotate: false
+  xy: 221, 55
+  size: 286, 300
+  orig: 350, 300
+  offset: 36, 0
+  index: -1
+skill_levelup_pop_y_00005
+  rotate: false
+  xy: 520, 707
+  size: 264, 282
+  orig: 350, 300
+  offset: 52, 8
+  index: -1
+skill_levelup_pop_y_00006
+  rotate: false
+  xy: 522, 439
+  size: 258, 266
+  orig: 350, 300
+  offset: 53, 15
+  index: -1
+skill_levelup_prt_y_00000
+  rotate: false
+  xy: 509, 2
+  size: 163, 120
+  orig: 250, 350
+  offset: 21, 230
+  index: -1
+skill_levelup_prt_y_00001
+  rotate: true
+  xy: 787, 198
+  size: 171, 195
+  orig: 250, 350
+  offset: 67, 141
+  index: -1
+skill_levelup_prt_y_00002
+  rotate: false
+  xy: 2, 672
+  size: 214, 317
+  orig: 250, 350
+  offset: 28, 0
+  index: -1
+skill_levelup_prt_y_00003
+  rotate: false
+  xy: 2, 52
+  size: 217, 303
+  orig: 250, 350
+  offset: 14, 0
+  index: -1
+skill_levelup_prt_y_00004
+  rotate: false
+  xy: 304, 391
+  size: 216, 288
+  orig: 250, 350
+  offset: 8, 2
+  index: -1
+skill_levelup_prt_y_00005
+  rotate: true
+  xy: 786, 788
+  size: 201, 236
+  orig: 250, 350
+  offset: 15, 20
+  index: -1
+skill_levelup_prt_y_00006
+  rotate: true
+  xy: 782, 371
+  size: 188, 206
+  orig: 250, 350
+  offset: 22, 27
+  index: -1
+skill_levelup_ray_y_00000
+  rotate: false
+  xy: 509, 124
+  size: 266, 265
+  orig: 300, 300
+  offset: 17, 18
+  index: -1

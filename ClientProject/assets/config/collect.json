@@ -1,0 +1,4 @@
+{
+    "CollectEffect":{ "keys":["collectID", "wordID", "isUse", "skillLockIcon", "skillIcon", "skillDes"],"data":{ "1":[1, [10001, 10002, 10003], 1, "", "btn_random_boom", "使场上随机一个气泡爆炸，每局游戏可使用1次"],"2":[2, [10004, 10005, 10006], 1, "", "btn_change_caihong", "使待发射气泡内的表情变成彩虹色，每局游戏可使用1次"],"3":[3, [99999, 99999, 99999], 0, "", "btn_skill_no", "敬请期待"],"4":[4, [99999, 99999, 99999], 0, "", "btn_skill_no", "敬请期待"] } }
+    
+}

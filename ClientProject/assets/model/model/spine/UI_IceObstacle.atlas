@@ -1,0 +1,97 @@
+
+UI_IceObstacle.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 866, 88
+  size: 111, 61
+  orig: 111, 61
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 752, 68
+  size: 101, 61
+  orig: 102, 61
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 762, 193
+  size: 130, 60
+  orig: 130, 60
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 752, 131
+  size: 112, 60
+  orig: 112, 60
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 897, 255
+  size: 119, 60
+  orig: 119, 60
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 762, 255
+  size: 133, 60
+  orig: 133, 60
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 958, 2
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 855, 26
+  size: 101, 60
+  orig: 101, 60
+  offset: 0, 0
+  index: -1
+B1
+  rotate: false
+  xy: 2, 133
+  size: 748, 60
+  orig: 748, 60
+  offset: 0, 0
+  index: -1
+B11
+  rotate: false
+  xy: 2, 71
+  size: 748, 60
+  orig: 796, 124
+  offset: 21, 36
+  index: -1
+B12
+  rotate: false
+  xy: 2, 9
+  size: 748, 60
+  orig: 796, 124
+  offset: 21, 36
+  index: -1
+B2
+  rotate: false
+  xy: 894, 151
+  size: 126, 102
+  orig: 126, 102
+  offset: 0, 0
+  index: -1
+B3
+  rotate: false
+  xy: 2, 195
+  size: 758, 120
+  orig: 762, 124
+  offset: 2, 2
+  index: -1

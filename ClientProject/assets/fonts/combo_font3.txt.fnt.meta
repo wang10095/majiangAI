@@ -1,0 +1,187 @@
+{
+  "ver": "1.0.6",
+  "importer": "bitmap-font",
+  "imported": true,
+  "uuid": "1c1cc57b-bcde-478c-b021-f6d8c839fb64",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "_fntConfig": {
+      "commonHeight": 32,
+      "fontSize": 32,
+      "atlasName": "combo_font30.png",
+      "fontDefDictionary": {
+        "48": {
+          "rect": {
+            "x": 5,
+            "y": 5,
+            "width": 98,
+            "height": 119
+          },
+          "xOffset": 0,
+          "yOffset": -43.5,
+          "xAdvance": 98
+        },
+        "49": {
+          "rect": {
+            "x": 108,
+            "y": 5,
+            "width": 80,
+            "height": 117
+          },
+          "xOffset": 0,
+          "yOffset": -42.5,
+          "xAdvance": 80
+        },
+        "50": {
+          "rect": {
+            "x": 193,
+            "y": 5,
+            "width": 98,
+            "height": 118
+          },
+          "xOffset": 0,
+          "yOffset": -43,
+          "xAdvance": 98
+        },
+        "51": {
+          "rect": {
+            "x": 296,
+            "y": 5,
+            "width": 101,
+            "height": 118
+          },
+          "xOffset": 0,
+          "yOffset": -43,
+          "xAdvance": 101
+        },
+        "52": {
+          "rect": {
+            "x": 402,
+            "y": 5,
+            "width": 104,
+            "height": 116
+          },
+          "xOffset": 0,
+          "yOffset": -42,
+          "xAdvance": 104
+        },
+        "53": {
+          "rect": {
+            "x": 511,
+            "y": 5,
+            "width": 100,
+            "height": 118
+          },
+          "xOffset": 0,
+          "yOffset": -43,
+          "xAdvance": 100
+        },
+        "54": {
+          "rect": {
+            "x": 616,
+            "y": 5,
+            "width": 100,
+            "height": 118
+          },
+          "xOffset": 0,
+          "yOffset": -43,
+          "xAdvance": 100
+        },
+        "55": {
+          "rect": {
+            "x": 721,
+            "y": 5,
+            "width": 90,
+            "height": 117
+          },
+          "xOffset": 0,
+          "yOffset": -42.5,
+          "xAdvance": 90
+        },
+        "56": {
+          "rect": {
+            "x": 816,
+            "y": 5,
+            "width": 99,
+            "height": 119
+          },
+          "xOffset": 0,
+          "yOffset": -43.5,
+          "xAdvance": 99
+        },
+        "57": {
+          "rect": {
+            "x": 920,
+            "y": 5,
+            "width": 99,
+            "height": 120
+          },
+          "xOffset": 0,
+          "yOffset": -44,
+          "xAdvance": 99
+        },
+        "66": {
+          "rect": {
+            "x": 5,
+            "y": 130,
+            "width": 101,
+            "height": 133
+          },
+          "xOffset": 0,
+          "yOffset": -50.5,
+          "xAdvance": 101
+        },
+        "67": {
+          "rect": {
+            "x": 111,
+            "y": 130,
+            "width": 103,
+            "height": 135
+          },
+          "xOffset": 0,
+          "yOffset": -51.5,
+          "xAdvance": 103
+        },
+        "77": {
+          "rect": {
+            "x": 219,
+            "y": 130,
+            "width": 113,
+            "height": 133
+          },
+          "xOffset": 0,
+          "yOffset": -50.5,
+          "xAdvance": 113
+        },
+        "79": {
+          "rect": {
+            "x": 337,
+            "y": 130,
+            "width": 109,
+            "height": 135
+          },
+          "xOffset": 0,
+          "yOffset": -51.5,
+          "xAdvance": 109
+        },
+        "120": {
+          "rect": {
+            "x": 451,
+            "y": 130,
+            "width": 90,
+            "height": 99
+          },
+          "xOffset": 0,
+          "yOffset": -33.5,
+          "xAdvance": 90
+        }
+      },
+      "kerningDict": {}
+    },
+    "fontSize": 32,
+    "textureUuid": "e8a97e10-7958-4d9f-8f28-761506959cd7"
+  }
+}

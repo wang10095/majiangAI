@@ -1,0 +1,6 @@
+{
+    "Tips":{ "keys":["key", "zh"],"data":{ "tip_not_circle_can_remove":["tip_not_circle_can_remove", "暂无气泡可消除"] } }
+    ,
+    "L18n":{ "keys":["key", "zh"],"data":{ "info_win":["info_win", "胜利"],"common_alert_title":["common_alert_title", "提示"] } }
+    
+}

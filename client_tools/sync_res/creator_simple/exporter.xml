@@ -1,0 +1,60 @@
+<exporter version="1.0">
+    <!-- identifier of the exporter -->
+    <name>creator_simple</name>
+
+    <!-- for compatiblility only: allow referencing the exporter as "easyjs" -->
+    <nameAlias>creator_simple</nameAlias>
+
+    <!-- display name of the exporter for the combo box -->
+    <displayName>creator_simple</displayName>
+	
+    <!-- description of the exporter -->
+    <description>Exporter for Creator.</description>
+
+    <!-- exporter version -->
+    <version>1.0</version>
+	
+    <!-- currently only one file allowed - more to come with update -->
+    <files>
+        <file>
+            <!-- name of this file variable -->
+            <name>json</name>
+
+            <!-- human readable name (for GUI) -->
+            <displayName>JSON file</displayName>
+
+            <!-- file extension for the file -->
+            <fileExtension>json</fileExtension>
+
+            <!-- description what the file contains, used in tooltips in the GUI -->
+            <description>JSON file for creator custom</description>
+
+            <!-- name of the template file -->
+            <template>creator_simple.json</template>
+
+            <!-- one json file for all multi-pack sheets -->
+            <hasSeparateMultiPackFiles>true</hasSeparateMultiPackFiles>
+        </file>
+    </files>
+
+    <!-- target framework supports trimming -->
+    <supportsTrimming>true</supportsTrimming>
+
+    <!-- target framework supports rotated sprites -->
+    <supportsRotation>true</supportsRotation>
+
+    <!-- rotated sprites direction (cw/ccw) -->
+    <rotationDirection>cw</rotationDirection>
+
+    <!-- supports npot sizes -->
+    <supportsNPOT>false</supportsNPOT>
+
+    <!-- supports file name stripping (remove .png etc) -->
+    <supportsTrimSpriteNames>false</supportsTrimSpriteNames>
+
+    <!-- supports texure subpath -->
+    <supportsTextureSubPath>yes</supportsTextureSubPath>
+
+</exporter>
+
+

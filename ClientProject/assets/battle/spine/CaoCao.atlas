@@ -1,0 +1,48 @@
+
+CaoCao.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 166, 70
+  size: 162, 183
+  orig: 164, 185
+  offset: 1, 1
+  index: -1
+1_0000
+  rotate: false
+  xy: 2, 2
+  size: 61, 64
+  orig: 64, 64
+  offset: 2, 0
+  index: -1
+2
+  rotate: false
+  xy: 330, 76
+  size: 161, 177
+  orig: 163, 179
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 2, 68
+  size: 162, 185
+  orig: 164, 187
+  offset: 1, 1
+  index: -1
+4
+  rotate: false
+  xy: 65, 33
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 493, 208
+  size: 45, 10
+  orig: 47, 12
+  offset: 1, 1
+  index: -1

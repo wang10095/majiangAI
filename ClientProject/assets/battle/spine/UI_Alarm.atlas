@@ -1,0 +1,13 @@
+
+UI_Alarm.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhong
+  rotate: false
+  xy: 2, 2
+  size: 52, 53
+  orig: 53, 53
+  offset: 1, 0
+  index: -1

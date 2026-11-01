@@ -1,0 +1,48 @@
+
+UI_Ice_01.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 362, 11
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 2, 15
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 404, 2
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1
+22
+  rotate: false
+  xy: 182, 15
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 362, 51
+  size: 49, 72
+  orig: 49, 72
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 362, 125
+  size: 68, 63
+  orig: 69, 65
+  offset: 0, 1
+  index: -1

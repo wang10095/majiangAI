@@ -1,0 +1,87 @@
+syntax = "proto3";
+
+package msg;
+option go_package = "./csmsg";
+import "person.proto";
+
+message CardBox {
+    int32                       boxId               = 1;
+    int64                       restore             = 2;
+    int64                       resetCoins          = 3;
+}
+
+message CardsNtf {
+    map<int32, int64>           cards               = 1;
+    repeated CardBox            boxes               = 2;
+    int32                       todaySend           = 3;
+    int32                       dailyMaxSend        = 4;
+}
+
+message CardChangeNtf {
+    map<int32, int64>           cards               = 1;
+}
+
+message CardGroupFinishedNtf {
+    int32                       groupId             = 1;
+}
+
+message CardGroupRewardC2S {
+	int32                       groupId             = 1;
+}
+
+message CardGroupRewardS2C {
+    int32                       groupId             = 1;
+    map<int32, int64>           rewards             = 2;
+}
+
+// 送出卡牌
+message CardGiftSendC2S {
+    int64                       playerId            = 1;
+    repeated int32              cards               = 2; // 不可重复
+}
+
+message CardGiftSendS2C {
+    int32                       todaySend           = 1;
+}
+
+message CardGift {
+    int64                       from                = 1;
+    int32                       card                = 2;
+    int64                       sendTime            = 3;
+}
+
+message CardGiftNtf {
+    repeated CardGift           gifts               = 2;
+}
+
+// 收到别人赠送的卡牌
+message CardGiftAllC2S {
+}
+
+message CardGiftAllS2C {
+    repeated CardGift           gifts               = 1;
+}
+
+// 领取别人赠送的卡牌
+message CardGiftGetC2S {
+    CardGift                    gift                = 1;
+}
+
+message CardBoxExchangeC2S {
+    int32                       boxId               = 1;
+    map<int32, int64>           cards               = 2;
+}
+
+message CardBoxExchangeS2C {
+    CardBox                     box                 = 1;
+}
+
+message CardBoxResetC2S {
+    int32                       boxId               = 1;
+}
+
+message CardBoxResetS2C {
+    int32                       boxId               = 1;
+}
+
+

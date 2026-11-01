@@ -1,0 +1,84 @@
+{
+  "name": "CrazyGirl_ttgame",
+  "server": "https://mzxk-okv.cognizepower.com/ttgame",
+  "platform": "bytedance-mini-game",
+  "buildPath": "/Users/hxjs/CrazyGirl",
+  "debug": false,
+  "md5Cache": true,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "polyfills": {
+    "asyncFunctions": false
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": true,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "4d717cdd-a950-411f-a186-22b436faeb8b",
+  "outputName": "ttgame",
+  "taskName": "bytedance-mini-game",
+  "scenes": [
+    {
+      "url": "db://assets/home/home.scene",
+      "uuid": "a830ccf3-5a62-468d-9bc0-f22096239446",
+      "bundle": "db://assets/home"
+    },
+    {
+      "url": "db://assets/loading/loading.scene",
+      "uuid": "4d717cdd-a950-411f-a186-22b436faeb8b"
+    },
+    {
+      "url": "db://assets/login/login.scene",
+      "uuid": "b0f2cf1d-bc5a-49e9-b06e-8a19e6190586",
+      "bundle": "db://assets/login"
+    },
+    {
+      "url": "db://assets/room/room.scene",
+      "uuid": "4007ba7c-2544-40c0-abe7-dcd00c8ce475",
+      "bundle": "db://assets/room"
+    },
+    {
+      "url": "db://assets/pet/pet.scene",
+      "uuid": "6a4c7cc3-d32e-458f-94b4-f84a94592e3e",
+      "bundle": "db://assets/pet"
+    },
+    {
+      "url": "db://assets/module/monopoly/monopoly.scene",
+      "uuid": "545deaa3-b31d-4ba1-bd70-12b4653052af",
+      "bundle": "db://assets/module/monopoly"
+    }
+  ],
+  "packages": {
+    "engine": {
+      "cleanupImageCache": "inheritProjectSetting",
+      "__version__": "1.0.7"
+    },
+    "bytedance-mini-game": {
+      "buildOpenDataContextTemplate": "",
+      "appid": "tt4a753cc8d54650ea02",
+      "orientation": "portrait",
+      "physX": {
+        "use": "project",
+        "notPackPhysXLibs": false,
+        "multiThread": false,
+        "subThreadCount": 1,
+        "epsilon": 0.001
+      },
+      "__version__": "1.0.3",
+      "wasmSubpackage": true
+    },
+    "cocos-service": {
+      "configID": "0dce68",
+      "services": [],
+      "__version__": "3.0.7"
+    }
+  },
+  "__version__": "1.3.6",
+  "buildMode": "normal",
+  "logDest": "project://temp/builder/log/bytedance-mini-game11-14-2023 16-34.log"
+}

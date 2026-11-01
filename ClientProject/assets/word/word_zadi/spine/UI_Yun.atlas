@@ -1,0 +1,97 @@
+
+UI_Yun.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Y1
+  rotate: false
+  xy: 199, 396
+  size: 236, 52
+  orig: 256, 80
+  offset: 11, 10
+  index: -1
+Y2
+  rotate: true
+  xy: 2, 72
+  size: 241, 60
+  orig: 256, 80
+  offset: 9, 10
+  index: -1
+Y3
+  rotate: false
+  xy: 199, 450
+  size: 241, 60
+  orig: 256, 80
+  offset: 8, 10
+  index: -1
+Y4
+  rotate: false
+  xy: 199, 255
+  size: 212, 59
+  orig: 256, 80
+  offset: 9, 12
+  index: -1
+guangyun
+  rotate: false
+  xy: 2, 315
+  size: 195, 195
+  orig: 210, 210
+  offset: 7, 8
+  index: -1
+yun1
+  rotate: false
+  xy: 64, 74
+  size: 99, 62
+  orig: 300, 160
+  offset: 176, 30
+  index: -1
+yun2
+  rotate: true
+  xy: 64, 138
+  size: 175, 117
+  orig: 300, 160
+  offset: 101, 30
+  index: -1
+yun3
+  rotate: false
+  xy: 199, 316
+  size: 206, 78
+  orig: 300, 160
+  offset: 70, 30
+  index: -1
+yun4
+  rotate: false
+  xy: 183, 181
+  size: 207, 72
+  orig: 300, 160
+  offset: 67, 30
+  index: -1
+yun5
+  rotate: false
+  xy: 183, 104
+  size: 191, 75
+  orig: 300, 160
+  offset: 61, 31
+  index: -1
+yun6
+  rotate: false
+  xy: 165, 25
+  size: 179, 77
+  orig: 300, 160
+  offset: 62, 31
+  index: -1
+yun7
+  rotate: false
+  xy: 346, 25
+  size: 127, 77
+  orig: 300, 160
+  offset: 46, 30
+  index: -1
+yun8
+  rotate: true
+  xy: 64, 2
+  size: 70, 76
+  orig: 300, 160
+  offset: 44, 30
+  index: -1
