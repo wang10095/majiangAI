@@ -3,8 +3,8 @@ import platform
 import shutil
 from string import Template
 
-ACCESS_KEY_ID = "REMOVED_ACCESS_KEY_ID"
-ACCESS_KEY_SECRET = "REMOVED_ACCESS_KEY_SECRET"
+ACCESS_KEY_ID = os.environ["ALIYUN_OSS_ACCESS_KEY_ID"]
+ACCESS_KEY_SECRET = os.environ["ALIYUN_OSS_ACCESS_KEY_SECRET"]
 ENDPOINT = "https://oss-cn-beijing.aliyuncs.com"
 BUCKET_NAME_PROJ = "oss://lndb-file/mmxz/"
 
@@ -36,7 +36,6 @@ def upload_files(input, targetPath, rmTargetFoler=True, rmInputFolder=True):
         INPUT=input,
         BUCKET_DIST=BUCKET_DIST,
     )
-    print("cmd:", command)
     os.system(command)
     if rmInputFolder:
         try:
@@ -58,7 +57,6 @@ def download_file(targetPath, input):
         INPUT=input,
         BUCKET_DIST=BUCKET_DIST,
     )
-    print("cmd:", command)
     os.system(command)
 
 
