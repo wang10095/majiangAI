@@ -1,0 +1,247 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "fee46817-6de9-441e-9418-cabb3f2090eb",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "23868": {
+      "importer": "sprite-frame",
+      "uuid": "fee46817-6de9-441e-9418-cabb3f2090eb@23868",
+      "displayName": "",
+      "id": "23868",
+      "name": "audioSt",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 82,
+        "height": 226,
+        "rawWidth": 82,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e7f9d20b-7272-4e98-92b8-d6ecf8a4ef08@6c48a",
+        "atlasUuid": "fee46817-6de9-441e-9418-cabb3f2090eb"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "87627": {
+      "importer": "sprite-frame",
+      "uuid": "fee46817-6de9-441e-9418-cabb3f2090eb@87627",
+      "displayName": "",
+      "id": "87627",
+      "name": "audioEr",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 170,
+        "trimY": 44,
+        "width": 79,
+        "height": 40,
+        "rawWidth": 79,
+        "rawHeight": 40,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e7f9d20b-7272-4e98-92b8-d6ecf8a4ef08@6c48a",
+        "atlasUuid": "fee46817-6de9-441e-9418-cabb3f2090eb"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cb306": {
+      "importer": "sprite-frame",
+      "uuid": "fee46817-6de9-441e-9418-cabb3f2090eb@cb306",
+      "displayName": "",
+      "id": "cb306",
+      "name": "audioBtn",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 170,
+        "trimY": 86,
+        "width": 66,
+        "height": 92,
+        "rawWidth": 66,
+        "rawHeight": 92,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e7f9d20b-7272-4e98-92b8-d6ecf8a4ef08@6c48a",
+        "atlasUuid": "fee46817-6de9-441e-9418-cabb3f2090eb"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57a72": {
+      "importer": "sprite-frame",
+      "uuid": "fee46817-6de9-441e-9418-cabb3f2090eb@57a72",
+      "displayName": "",
+      "id": "57a72",
+      "name": "audioRe",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 86,
+        "trimY": 2,
+        "width": 82,
+        "height": 226,
+        "rawWidth": 82,
+        "rawHeight": 226,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e7f9d20b-7272-4e98-92b8-d6ecf8a4ef08@6c48a",
+        "atlasUuid": "fee46817-6de9-441e-9418-cabb3f2090eb"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7aa1": {
+      "importer": "sprite-frame",
+      "uuid": "fee46817-6de9-441e-9418-cabb3f2090eb@a7aa1",
+      "displayName": "",
+      "id": "a7aa1",
+      "name": "audioTp",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 170,
+        "trimY": 2,
+        "width": 79,
+        "height": 40,
+        "rawWidth": 79,
+        "rawHeight": 40,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e7f9d20b-7272-4e98-92b8-d6ecf8a4ef08@6c48a",
+        "atlasUuid": "fee46817-6de9-441e-9418-cabb3f2090eb"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "audioBtn.png",
+    "format": 2,
+    "uuid": "fee46817-6de9-441e-9418-cabb3f2090eb",
+    "textureUuid": "e7f9d20b-7272-4e98-92b8-d6ecf8a4ef08@6c48a"
+  }
+}

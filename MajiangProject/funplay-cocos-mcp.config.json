@@ -1,0 +1,27 @@
+{
+  "host": "127.0.0.1",
+  "port": 24975,
+  "portMode": "project",
+  "clientConfigEntries": {
+    "vscode": {
+      "serverName": "cocos-majiangproje-4c798f",
+      "url": "http://127.0.0.1:24975/mcp/project/4c798f5ffe9c5248a7b4c422/",
+      "configPath": "/Users/mac/Library/Application Support/Code/User/mcp.json",
+      "projectIdentity": "4c798f5ffe9c5248a7b4c422"
+    }
+  },
+  "toolProfile": "core",
+  "enabledTools": [],
+  "disabledTools": [],
+  "enabledToolCategories": [],
+  "disabledToolCategories": [],
+  "enableSessions": false,
+  "enableConsoleLogging": true,
+  "executeJavascriptSafetyChecks": true,
+  "autostart": true,
+  "maxInteractionLogEntries": 50,
+  "lastClientTargetId": "vscode",
+  "activeToolProfileName": "",
+  "savedToolProfiles": [],
+  "language": "auto"
+}

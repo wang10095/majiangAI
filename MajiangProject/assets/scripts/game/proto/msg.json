@@ -1,0 +1,289 @@
+{
+  "nested": {
+    "msg": {
+      "nested": {
+        "AuthRequest": {
+          "fields": {
+            "username": {
+              "type": "string",
+              "id": 1
+            },
+            "password": {
+              "type": "string",
+              "id": 2
+            },
+            "displayName": {
+              "type": "string",
+              "id": 3,
+              "protoName": "display_name"
+            }
+          }
+        },
+        "AuthUser": {
+          "fields": {
+            "id": {
+              "type": "string",
+              "id": 1
+            },
+            "username": {
+              "type": "string",
+              "id": 2
+            },
+            "displayName": {
+              "type": "string",
+              "id": 3,
+              "protoName": "display_name"
+            },
+            "role": {
+              "type": "string",
+              "id": 4
+            },
+            "status": {
+              "type": "string",
+              "id": 5
+            }
+          }
+        },
+        "AuthResponse": {
+          "fields": {
+            "success": {
+              "type": "bool",
+              "id": 1
+            },
+            "accessToken": {
+              "type": "string",
+              "id": 2,
+              "protoName": "access_token"
+            },
+            "refreshToken": {
+              "type": "string",
+              "id": 3,
+              "protoName": "refresh_token"
+            },
+            "error": {
+              "type": "string",
+              "id": 4
+            },
+            "user": {
+              "type": "AuthUser",
+              "id": 5
+            },
+            "timestamp": {
+              "type": "string",
+              "id": 6
+            }
+          }
+        },
+        "Person": {
+          "oneofs": {
+            "_data": {
+              "oneof": [
+                "data"
+              ]
+            }
+          },
+          "fields": {
+            "name": {
+              "type": "string",
+              "id": 1
+            },
+            "id": {
+              "type": "uint64",
+              "id": 2
+            },
+            "years": {
+              "type": "int32",
+              "id": 3
+            },
+            "data": {
+              "type": "bytes",
+              "id": 5,
+              "options": {
+                "proto3_optional": true
+              }
+            }
+          }
+        },
+        "CardBox": {
+          "fields": {
+            "boxId": {
+              "type": "int32",
+              "id": 1
+            },
+            "restore": {
+              "type": "int64",
+              "id": 2
+            },
+            "resetCoins": {
+              "type": "int64",
+              "id": 3
+            }
+          }
+        },
+        "CardsNtf": {
+          "fields": {
+            "cards": {
+              "keyType": "int32",
+              "type": "int64",
+              "id": 1
+            },
+            "boxes": {
+              "rule": "repeated",
+              "type": "CardBox",
+              "id": 2
+            },
+            "todaySend": {
+              "type": "int32",
+              "id": 3
+            },
+            "dailyMaxSend": {
+              "type": "int32",
+              "id": 4
+            }
+          }
+        },
+        "CardChangeNtf": {
+          "fields": {
+            "cards": {
+              "keyType": "int32",
+              "type": "int64",
+              "id": 1
+            }
+          }
+        },
+        "CardGroupFinishedNtf": {
+          "fields": {
+            "groupId": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        },
+        "CardGroupRewardC2S": {
+          "fields": {
+            "groupId": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        },
+        "CardGroupRewardS2C": {
+          "fields": {
+            "groupId": {
+              "type": "int32",
+              "id": 1
+            },
+            "rewards": {
+              "keyType": "int32",
+              "type": "int64",
+              "id": 2
+            }
+          }
+        },
+        "CardGiftSendC2S": {
+          "fields": {
+            "playerId": {
+              "type": "int64",
+              "id": 1
+            },
+            "cards": {
+              "rule": "repeated",
+              "type": "int32",
+              "id": 2
+            }
+          }
+        },
+        "CardGiftSendS2C": {
+          "fields": {
+            "todaySend": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        },
+        "CardGift": {
+          "fields": {
+            "from": {
+              "type": "int64",
+              "id": 1
+            },
+            "card": {
+              "type": "int32",
+              "id": 2
+            },
+            "sendTime": {
+              "type": "int64",
+              "id": 3
+            }
+          }
+        },
+        "CardGiftNtf": {
+          "fields": {
+            "gifts": {
+              "rule": "repeated",
+              "type": "CardGift",
+              "id": 2
+            }
+          }
+        },
+        "CardGiftAllC2S": {
+          "fields": {}
+        },
+        "CardGiftAllS2C": {
+          "fields": {
+            "gifts": {
+              "rule": "repeated",
+              "type": "CardGift",
+              "id": 1
+            }
+          }
+        },
+        "CardGiftGetC2S": {
+          "fields": {
+            "gift": {
+              "type": "CardGift",
+              "id": 1
+            }
+          }
+        },
+        "CardBoxExchangeC2S": {
+          "fields": {
+            "boxId": {
+              "type": "int32",
+              "id": 1
+            },
+            "cards": {
+              "keyType": "int32",
+              "type": "int64",
+              "id": 2
+            }
+          }
+        },
+        "CardBoxExchangeS2C": {
+          "fields": {
+            "box": {
+              "type": "CardBox",
+              "id": 1
+            }
+          }
+        },
+        "CardBoxResetC2S": {
+          "fields": {
+            "boxId": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        },
+        "CardBoxResetS2C": {
+          "fields": {
+            "boxId": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

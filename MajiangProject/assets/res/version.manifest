@@ -1,0 +1,7 @@
+{
+  "checkUrl": "http://101.200.206.194:8090/platform/checkEdtion/", 
+  "packageUrl": "http://101.201.198.69:8080/update/syMaJiang/res/", 
+  "remoteManifestUrl": "http://101.201.198.69:8080/update/syMaJiang/project.manifest", 
+  "remoteVersionUrl": "http://101.201.198.69:8080/update/syMaJiang/version.manifest", 
+  "version": "5.1.724"
+}
