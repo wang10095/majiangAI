@@ -1,18 +1,18 @@
 import os
 import sys
 
-sys.path.append("..")
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import re
-import shlex
+import shutil
 import subprocess
-import platform
-import utils
+import tempfile
 
-distDir = "/Users/hxjs/Desktop/hxjs/workspacek/client_project/assets/scripts/game/proto"
+projectDir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+distDir = os.path.join(projectDir, "MajiangProject", "assets", "scripts", "game", "proto")
 outputFile = "msg"
 messageTypeFile = "message-type"
 
-protoDir = "/Users/hxjs/Desktop/hxjs/protos"
+protoDir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "proto")
 reImport = re.compile(r'^import\s+"(.*\.proto)";$')
 reContentStart = re.compile(r"^\s*(message|enum|//\s+cmd)\s+")
 messageCodeFormat = re.compile(r"^\s*(//\s*cmd)+")
@@ -77,15 +77,18 @@ def writeToFile(filePath, content):
     fo.close()
 
 
+def readFile(filePath):
+    with open(filePath, "rb") as file:
+        return file.read()
+
+
 # 生成协议入口
 # python3 gen.py /Users/hxjs/Desktop/hxjs/protos /Users/hxjs/Desktop/remote
 if __name__ == "__main__":
-    n = len(sys.argv)
-    if n < 3:
-        print("Usage: python3 encrypt.py [dir]")
-        exit(0)
-    protoDir = sys.argv[1]
-    distDir = sys.argv[2]
+    if len(sys.argv) >= 2:
+        protoDir = os.path.abspath(sys.argv[1])
+    if len(sys.argv) >= 3:
+        distDir = os.path.abspath(sys.argv[2])
     content = """syntax = "proto3";
 package msg;
 """
@@ -114,16 +117,20 @@ package msg;
                     print("error:", messageCodes, messageNames)
 
     outProto = os.path.join(distDir, f"{outputFile}.proto")
-    outTs = os.path.join(distDir, f"{outputFile}.ts")
+    outJson = os.path.join(distDir, f"{outputFile}.json")
     messageTypeTs = os.path.join(distDir, f"{messageTypeFile}.ts")
     writeToFile(outProto, content)
 
-    shellCmd = f"pbjs --ts {outTs} {outProto}"
-    print("cmd", shellCmd)
-    if platform.system() == "Windows":
-        os.system(shellCmd)
-    else:
-        subprocess.run(shlex.split(shellCmd))
+    pbjs = shutil.which("pbjs")
+    command = [pbjs, "-t", "json", "-o", outJson, outProto] if pbjs else [
+        "npx", "--yes", "--package=protobufjs-cli", "--",
+        "pbjs", "-t", "json", "-o", outJson, outProto
+    ]
+    print("cmd", " ".join(command))
+    env = os.environ.copy()
+    if not pbjs:
+        env["npm_config_cache"] = os.path.join(tempfile.gettempdir(), "majiangai-npm-cache")
+    subprocess.run(command, check=True, env=env)
 
     # 消息名称类
     messageTypeContent = """
@@ -132,13 +139,9 @@ export enum MessageType{{
 }}
 """
     messageTypeContentStr = ""
-    # 替换接口 interface 为class 方便书写
-    tsContent = utils.readFile(outTs).decode()
     for index, message in enumerate(messageNames):
         print(message, messageCodes[index])
-        tsContent = tsContent.replace("interface " + message, "class " + message)
         messageTypeContentStr += message + "=" + messageCodes[index] + ",\n"
-    writeToFile(outTs, tsContent)
 
     messageTypeContent = messageTypeContent.format(content=messageTypeContentStr)
     writeToFile(messageTypeTs, messageTypeContent)
