@@ -2,7 +2,9 @@
 export const G_isTest = false;
 
 export const isQQEmoji = true;
-export const G_serverUrl = 'http://127.0.0.1:3000/api/';
+const G_localServerUrl = 'http://127.0.0.1:3000/api/';
+const G_cloudServerUrl = 'http://180.76.135.161/api/';
+export const G_serverUrl = G_isTest ? G_localServerUrl : G_cloudServerUrl;
 export const G_cdnUrl = 'https://kkbqb-cdn.galsanggame.com/';
 export const G_shareTitle = isQQEmoji ? '《扣扣表情包》99%的人过不了第二关' : ' 《多多很机智》99%的人过不了第二关';
 export const G_shareImg = 'https://kkbqb-cdn.galsanggame.com/qqemoji/image/shareImage.png';
